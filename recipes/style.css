@@ -1,0 +1,33 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: grey;
+}
+
+ul *,
+ol *{
+    margin: 10px;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    outline: 4px solid black;
+    background-color: lightblue;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+#content {
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
